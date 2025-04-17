@@ -15,12 +15,16 @@ A simple and stylish Todo list app built with **React** and custom CSS, featurin
 
 ## 📁 File Structure
 
+```
 ├── src/components
 │   ├── Todo.jsx         # Main Todo component
 │   └── styleTodo.css    # Styles for the app
 |── App.jsx   
 ├── package.json
 └── README.md
+
+```
+
 
 ## 🛠 Tech Stack
 
