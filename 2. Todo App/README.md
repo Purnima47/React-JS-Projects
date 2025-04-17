@@ -1,12 +1,30 @@
-# React + Vite
+# 📝 React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish Todo list app built with **React** and custom CSS, featuring smooth animations and a clean UI.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add and remove todo items
+- Smooth animations on delete
+- Responsive and modern design
+- Minimal and easy to customize
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![image](https://github.com/user-attachments/assets/b1fe9863-5e27-4cb0-a182-41c015f8ffd2)
+
+## 📁 File Structure
+
+├── src/components
+│   ├── Todo.jsx         # Main Todo component
+│   └── styleTodo.css    # Styles for the app
+|── App.jsx   
+├── package.json
+└── README.md
+
+## 🛠 Tech Stack
+
+- **React** – JavaScript library for building user interfaces
+- **JSX** – Syntax extension to JavaScript for writing component markup
+- **CSS3** – For styling and animations (custom CSS, no frameworks)
+- **React Hooks** – `useState` for state management
