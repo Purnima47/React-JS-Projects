@@ -16,7 +16,7 @@ A sleek, animated React counter app with a modern 3D UI using CSS and glassmorph
 
 ## 🚀 Demo
 
-![image](https://github.com/user-attachments/assets/066cf9a3-bef2-45da-9994-a2d49f430879)
+![image](https://github.com/user-attachments/assets/5f0e9631-9118-44c4-8b62-b0d1a44de194)
 
 
 ---
