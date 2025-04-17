@@ -1,0 +1,129 @@
+/* Reset and base styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #e0f7fa;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Input + button wrapper */
+input {
+    padding: 12px 16px;
+    border: 2px solid #a7ffeb;
+    border-radius: 12px;
+    background: #f0fdfa;
+    width: calc(100% - 130px);
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #00bcd4;
+    outline: none;
+    background: #e0f2f1;
+}
+
+/* Button */
+button {
+    border-radius: 12px;
+    background: #00bcd4;
+    padding: 12px 20px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #0097a7;
+}
+
+/* Todo List */
+.todos-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Individual todo */
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f0fdfa;
+    padding: 14px 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+    border: 1px solid #b2dfdb;
+    animation: slideUpFade 0.4s ease;
+    transition: transform 0.2s ease;
+}
+
+.todo:hover {
+    transform: scale(1.02);
+}
+
+.todo span {
+    color: #004d40;
+    font-size: 16px;
+}
+
+/* Close (delete) button */
+.close {
+    background: transparent;
+    border: none;
+    color: #ff5252;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.close:hover {
+    color: #c62828;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUpFade {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
