@@ -22,7 +22,6 @@ A simple and stylish Todo list app built with **React** and custom CSS, featurin
 |── App.jsx   
 ├── package.json
 └── README.md
-
 ```
 
 
