@@ -1,0 +1,109 @@
+/* Reset and universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2e2e2e;
+}
+
+/* Calculator container */
+.calculator {
+    position: relative;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400px;
+    background: #333;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Display value section */
+.calculator .value {
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 36px;
+    color: #292929;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    /* Disable direct input */
+}
+
+/* Calculator buttons */
+.calculator span {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    background: #292929;
+    place-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Button hover effect */
+.calculator span:hover {
+    background: rgba(255, 163, 26, 0.8);
+    transform: scale(1.05);
+}
+
+/* Active button effect */
+.calculator span:active {
+    background: rgb(255, 163, 26);
+    color: #fff;
+    transform: scale(0.98);
+}
+
+/* Clear button: span.clear */
+.calculator span.clear {
+    grid-column: span 2;
+    width: 120px;
+    background: rgb(255, 163, 26);
+}
+
+/* Plus button: span.plus */
+.calculator span.plus {
+    grid-row: span 2;
+    height: 120px;
+}
+
+/* Equal button: span.equal */
+.calculator span.equal {
+    background: rgb(255, 163, 26);
+}
+
+/* Responsive layout adjustments for smaller screens */
+@media (max-width: 500px) {
+    .calculator {
+        width: 320px;
+        gap: 10px;
+    }
+
+    .calculator .value {
+        font-size: 30px;
+    }
+
+    .calculator span {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
