@@ -32,35 +32,6 @@ Each meal is shown inside a beautiful, responsive card layout with smooth hover 
 
 ---
 
-## 📦 How to Run Locally
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/meals-app.git
-    cd meals-app
-    ```
-
-2. Install dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-
-    ```bash
-    npm start
-    ```
-
-4. Open your browser and navigate to:
-
-    ```
-    http://localhost:3000
-    ```
-
----
-
 ## ⚡ API Used
 
 - [TheMealDB](https://www.themealdb.com/api.php) — A free API providing meal recipes and images.
