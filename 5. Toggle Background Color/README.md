@@ -6,7 +6,6 @@ A simple React app that allows you to toggle between **White** and **Black** the
 
 ## 🎥 Demo
 
-> **Watch the demo of the project in action:**
 > https://github.com/user-attachments/assets/e327b605-9dbb-4073-89be-efd9097f4adf
 
 ---
