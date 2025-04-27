@@ -7,7 +7,7 @@ Each meal is shown inside a beautiful, responsive card layout with smooth hover 
 
 ## 📸 Demo
 
-https://github.com/user-attachments/assets/8e75d5a9-af4a-4da3-9bf1-38f9c2dd9bdd 
+> https://github.com/user-attachments/assets/dedefb89-a4fb-4872-8dfb-39ef94b10c3e
 
 ---
 
